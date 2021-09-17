@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;0,700;1,400&display=swap');
+
+*{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  margin: 0px; padding: 0px;
+  text-decoration: none;
+  
+  
+}
+
+.navbar-light .navbar-toggler{
+  border: none;
+  color: seagreen;
+}
+
+
+
+.navbar-light{
+  border: none;
+  outline: none;
+}
+
+
+.navbar .navbar-brand, .nav-link
+{
+  color: seagreen !important;
+  font-size: 15px;
+  padding: 5px 0px;
+  border-radius: 10px;
+}
+
+
+nav{
+  box-shadow:0 6px 10px rgba(0, 0,0,0.2);
+  
+}
+
+.nav-link:hover{
+ background-color: seagreen;
+ color: seashell !important;
+ border-radius: 10px;
+ 
+}
+
+.navicon
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-nav .nav-item a
+{
+  margin: 0px 10px;
+}
+
+
+
+.cart
+{
+  color: seagreen !important;
+  background-color: white !important;
+  font-size: 30px;
+}
+
+
+.user
+{
+  font-size: 30px;
+  color: seagreen !important;
+}
+
+
+
+@media  screen and (max-width:991px) {
+
+  .icon{
+  display: flex;
+  flex-direction: column;
+  }
+}
+
+
+
+
+/* cover section */
+
+.bg
+{
+  background: #11998e;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ background-size: cover;
+ width: 100%;
+ height: auto;
+ margin-top: 55px;
+ /* padding: 50px; */
+}
+
+body > section.bg > div > div > div.col-6.coveritem > div:nth-child(3) > button{
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.coverbg
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coveritem
+{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.svgimg
+{
+ 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.coveritem h1{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.coveritem p{
+  font-size: 20px;
+}
+
+
+@media screen and (max-width:1000px) {
+
+  .navbar-nav .nav-item a{
+    margin: 0px;
+    padding: 10px 5px;
+  }
+
+  .coveritem h1{
+    font-size: 30px;
+  }
+
+  .coveritem p{
+    font-size: 15px;
+  }
+
+  .coveritem button{
+    font-size: 8px; margin: 5px !important;
+  }
+
+ .bg{
+   padding: 15px; 
+ }
+}
+
+
+@media screen and (max-width:550px) {
+
+
+  .navbar-nav .nav-item a{
+    margin: 0px;
+    padding: 10px 5px;
+  }
+  .coveritem h1{
+    font-size: 20px;
+    margin: 5px !important;
+  }
+
+  .coveritem p{
+    font-size: 8px;margin: 5px !important;
+  }
+
+  .coveritem button{
+    font-size: 8px; margin: 5px !important;
+  }
+
+ .bg{
+   padding: 15px; 
+ }
+}
+
+@media screen and (max-width:360px) {
+
+  .navbar-nav .nav-item a{
+    margin: 0px;
+    padding: 10px 5px;
+  }
+  .coveritem h1{
+    font-size: 20px;
+    margin: 5px !important;
+  }
+
+  .coveritem p{
+    font-size: 8px;margin: 5px !important;
+  }
+
+  .coveritem button{
+    font-size: 8px; margin: 5px !important;
+  }
+
+ .bg{
+   padding: 15px; 
+ }
+
+
+}
+
+/* cover section end  */
+
+
+
+/* Product section  */
+
+
+
+.product-title h1{
+  color: #38ef7d;
+  text-shadow: 2px 2px 4px rgba(0, 0,0,0.9);
+}
+
+.box
+{
+   
+    margin: 10px;
+    width: 400px;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 20px rgba(0, 0,0,0.3);
+}
+
+
+body > section:nth-child(3) > div.container > div > div:nth-child(n) > a:nth-child(n) > i{
+  color: goldenrod;
+}
+
+body > section:nth-child(3) > div.container > div > div:nth-child(n) > img{
+  width: auto;
+  height: 200px;
+}
+
+body > section:nth-child(3) > div.container > div > div:nth-child(n) > h3{
+  font-weight: 700;
+}
+
+
+.btn-success{
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+/* Product section end  */
+
+
+/* brand section  */
+
+
+
+#brand img{
+  width: 200px;
+  height: auto;
+}
+
+@media screen and (max-width: 1000px){
+  
+  #brand img{
+    width: 160px;
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 800px){
+  
+  #brand img{
+    width: 140px;
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+  
+  #brand img{
+    width: 120px;
+    height: auto;
+  }
+
+}
+
+
+@media screen and (max-width: 400px){
+  
+  #brand img{
+    width: 100px;
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 200px){
+  
+  #brand img{
+    width: 80px;
+    height: auto;
+  }
+
+}
+
+
+/* brand section end  */
+
+
+/* footer section */
+
+#footer a{
+  padding-right: 2rem ;
+}
+
+
+
+/* footer end  */
